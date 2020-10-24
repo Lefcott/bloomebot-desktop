@@ -1,0 +1,11 @@
+export const LOGIN_STATUSES = Object.freeze({
+  WAITING_USER: 'WAITING_USER',
+  WAITING_API: 'WAITING_API',
+  INVALID_CREDENTIALS: 'EMAIL_ALREADY_EXISTS',
+  ERROR: 'ERROR',
+  LOGGED_IN: 'LOGGED_IN'
+});
+export const FIELDS = Object.freeze({
+  EMAIL: 'EMAIL',
+  PASSWORD: 'PASSWORD'
+});
